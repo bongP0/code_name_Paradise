@@ -1,0 +1,144 @@
+/* 초기화 */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Share Tech Mono', 'Consolas' monospace;
+    line-height: 16px;
+}
+/* --- */
+
+
+.container {
+    position: relative;
+    width: 100%;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #000; */
+    background-image: url(../RESOURS/noise.gif);
+}
+
+.bg_yellow {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    bottom: 0;
+    background-image: url(../RESOURS/yello_Bg.svg);
+    background-size: cover;
+}
+
+.img_ui {
+    width: 100%;
+    height: 100vh;
+}
+
+.All_ui {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.All_ui::before {
+    position: absolute;
+    width: 30px;
+    height: 40px;
+    content: "";
+    top: 0;
+    left: 0;
+    background: #ffe600;
+}
+.All_ui::after {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    content: "";
+    top: 35px;
+    left: 25px;
+    background: #ffe600;
+}
+
+.All_ui > a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 180px;
+    height: 180px;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    width: 180px;
+    height: 180px;
+    z-index: 2;
+}
+
+.bullets {
+    position: absolute;
+    top: 195px;
+    left: 60px;
+    scale: 80%;
+}
+
+.ui_organize {
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.top {
+    position: absolute;
+    width: 100%
+    
+}
+
+.left {
+    height: 88%;
+}
+.right {
+    position: absolute;
+    height: 100vh;
+    right: 0;
+
+}
+
+.code_name {
+    position: absolute;
+    top: 50px;
+    left: 250px;
+}
+
+.profile_img {
+    position: absolute;
+    top: 230px;
+    left: 237px;
+}
+
+.introduction_img {
+    position: absolute;
+    top: 100px;
+    right: 183px;
+    width: 890px;
+}
+
+.introduction {
+    position: absolute;
+    right: 183px;
+    bottom: 30px;
+}
+
+.red_logo {
+    position: absolute;
+    left: 100px;
+    bottom: 0;
+    scale: 80%;
+}

@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url(https://db.onlinewebfonts.com/c/1db29588408eadbd4406aae9238555eb?family=Consolas);
+
+/* 초기화 */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Share Tech Mono', 'Consolas' monospace;
+    line-height: 16px;
+}
+/* --- */
+
+
+.container {
+    position: relative;
+    width: 100%;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #000; */
+    background-image: url(RESOURS/noise.gif);
+}
+
+/* .img_ui {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-image: url(RESOURS/pege_UI.png);
+    background-size: cover;
+    z-index: 999;
+}
+
+.profile_button {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    right: 85px;
+    z-index: 1000;
+}
+
+.profile_button li {
+    width: 179px;
+    height: 83px;
+    margin-bottom: 10px;
+}
+
+.profile_button a {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+.bg_item {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(RESOURS/Group\ 10.png);
+    background-size: cover;
+}
+
+.login {
+   position: absolute;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+   left: 30%;
+}
+
+.login button {
+    width: 434px;
+    height: 65px;
+    margin-top: 26px;
+    border: none;
+} */
+
+.bg_yellow {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-image: url(RESOURS/Group\ 10.png);
+    background-size: cover;
+}
+
+.img_ui {
+    width: 100%;
+    height: 100vh;
+}
+
+.All_ui {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.All_ui::before {
+    position: absolute;
+    width: 30px;
+    height: 40px;
+    content: "";
+    top: 0;
+    left: 0;
+    background: #ffe600;
+}
+.All_ui::after {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    content: "";
+    top: 35px;
+    left: 25px;
+    background: #ffe600;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    width: 180px;
+    height: 180px;
+}
+
+.bullets {
+    position: absolute;
+    top: 195px;
+    left: 60px;
+    scale: 80%;
+}
+
+.ui_organize {
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.top {
+    position: absolute;
+    width: 100%
+    
+}
+
+.left {
+    height: 88%;
+}
+.right {
+    position: absolute;
+    height: 100vh;
+    right: 0;
+
+}
+
+nav {
+    display: flex;
+}
+
+/* contents */
+
+.login {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 26px;
+    font-family: 'Share Tech Mono';
+}
+
+.login_all {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.code_name {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 50px;
+    color: #ff0000;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.code_name > p {
+    line-height: 80px;
+}
+
+.code_name p:last-child {
+    margin-bottom: 25px;
+}
+
+.code_name::before {
+    position: absolute;
+    width: 25px;
+    height: 8px;
+    content: "";
+    background: #ff0000;
+    top: 133px;
+    right: -30px;
+}
+
+.login_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login_box > div {
+    width: 430px;
+    height: 60px;
+    background: #000;
+    border: 5px solid #ff0000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.login_box .RB_box2 {
+    padding-top: 10px;
+    margin-top: 30px;
+}
+
+.login_box .login {
+    position: relative;
+    justify-content: center;
+    width: 430px;
+    height: 60px;
+    background: #ff0000;
+    color: #fff;
+    margin-top: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.login_text {
+    position: absolute;
+    top: 30px;
+    left: -215px;
+    text-align: right;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.login_text p:last-child {
+    margin-top: 70px;
+}
+
+nav {
+    position: absolute;
+    right: 50px;
+    bottom: 20px;
+}
+
+.profile_button > li {
+    margin-bottom: 20px;
+}
+
+.error_none {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    display: none;
+}
+
+.error_box {
+    position: absolute;
+    width: 100%;
+    background-image: url(RESOURS/글리치/ezgif.com-optimize.gif);
+    background-size: cover;
+    height: 100vh;
+}
+
+.error_box::before {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    content: "";
+    background-color: #000;
+    opacity: .5;
+}
+.error {
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: 28%;
+    transform: translateY(-50%);
+    
+}
